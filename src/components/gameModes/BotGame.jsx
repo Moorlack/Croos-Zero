@@ -1,5 +1,5 @@
-import Game from "../game/Game";
 import { useCallback } from "react";
+import Game from "../game/Game";
 import { getBotChose } from "../../utils/bot/bot";
 
 const BOT_PLAYER = "0"

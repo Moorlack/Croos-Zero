@@ -1,7 +1,7 @@
 import React from "react";
 import { View } from "react-native";
 import Column from "../column/Column";
-import { fields } from '../../../../style/style'
+import { fields } from '../../../../style/field'
 
 function Row({ row, rowNumber, onClick }) {
     return (<View style={fields.row}>

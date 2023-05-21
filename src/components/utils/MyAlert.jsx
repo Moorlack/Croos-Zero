@@ -1,6 +1,6 @@
 import React from "react";
 import { Modal, View, Text, TouchableOpacity} from "react-native";
-import { alert } from "../../style/style";
+import { alert } from "../../style/myalert";
 
 const MyAlert = ({ modalVisible, modalMessage, onClick }) => {
     return (<Modal animationType='fade' transparent={true} visible={modalVisible}>

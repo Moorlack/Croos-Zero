@@ -1,6 +1,6 @@
+import {useState} from "react";
 import {isSomeoneWin, isTie} from "../../utils/utils";
 import {createEmptyTable} from "../../utils/table";
-import {useState} from "react";
 
 function useTable(onWin, onTie) {
     const [table, setTable] = useState(createEmptyTable)

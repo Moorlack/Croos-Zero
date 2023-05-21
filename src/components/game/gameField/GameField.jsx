@@ -1,5 +1,5 @@
-import { fields } from '../../../style/style';
 import { View } from "react-native";
+import { fields } from '../../../style/field';
 import Row from "./row/Row";
 function GameField({ table, onClick }) {
     return (<View style={ fields.table }>

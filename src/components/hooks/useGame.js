@@ -1,5 +1,5 @@
-import useTable from "./useTable";
 import { useState } from "react";
+import useTable from "./useTable";
 
 const FIRST_PLAYER = "x"
 function useGame(onGameWin, onGameTie) {

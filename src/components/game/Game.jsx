@@ -1,8 +1,8 @@
+import { useEffect } from "react";
 import Background from "./background/Background"
 import GameStatus from "./gameStatus/GameStatus"
 import GameField from "./gameField/GameField";
 import useGame from "../hooks/useGame";
-import { useEffect } from "react";
 import useModal from "../hooks/useModal";
 
 function Game({ onStateChanged }) {

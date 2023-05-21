@@ -1,6 +1,6 @@
 import React from "react";
 import { View } from "react-native";
-import { cross } from '../../style/style'
+import { cross } from '../../style/figures'
 
 function Cross() {
     return (<View style={cross.cross}>

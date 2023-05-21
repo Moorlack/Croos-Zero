@@ -1,5 +1,5 @@
-import MyAlert from "../utils/MyAlert";
 import { useState } from "react";
+import MyAlert from "../utils/MyAlert";
 function useModal() {
     const [isVisible, setIsVisible] = useState(false);
     const [message, setMessage] = useState('');

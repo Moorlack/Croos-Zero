@@ -1,6 +1,6 @@
 import React from "react";
 import { Pressable } from "react-native";
-import { fields } from '../../../../style/style'
+import { fields } from '../../../../style/field'
 import Cross from "../../../utils/Cross";
 import Zero from "../../../utils/Zero";
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Text, TouchableOpacity, StyleSheet, View } from 'react-native';
+import { Text, TouchableOpacity, View } from 'react-native';
 import { StatusBar} from 'expo-status-bar';
-import { fields, switcher } from './src/style/style';
+import { fields, switcher } from './src/style/menu';
 import Game from "./src/components/game/Game";
 import useAppLoad from "./src/components/hooks/useAppLoad";
 import BotGame from "./src/components/gameModes/BotGame";
